@@ -1,0 +1,39 @@
+
+/* Simple palette customization (no black/white-only) */
+:root {
+  --dc-bg: #f7f7fb;
+  --dc-text: #22252b;
+  --dc-accent: #0b5fff;
+  --dc-accent-2: #ff6b00;
+}
+
+body {
+  background: var(--dc-bg);
+  color: var(--dc-text);
+}
+
+a {
+  color: var(--dc-accent);
+}
+a:hover {
+  color: var(--dc-accent-2);
+  text-decoration: none;
+}
+
+/* Navbar/header tweaks */
+.masthead, .site-header {
+  background: #0e1633;
+}
+.site-title, .site-title a,
+.masthead__menu-item a {
+  color: #ffffff !important;
+}
+
+/* Cards and code blocks */
+.page, .archive, .sidebar, .card, .notice {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  border-radius: 12px;
+}
+pre, code {
+  border-radius: 8px;
+}

@@ -1,0 +1,81 @@
+
+title: "Danilo Croce"
+name: "Danilo Croce"
+description: "Associate Professor, University of Rome 'Tor Vergata' — NLP, LLMs, ML"
+locale: "en"
+url: "https://USERNAME.github.io"   # <-- replace USERNAME
+baseurl: ""
+
+# Theme (Minimal Mistakes works well with AcademicPages content)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Author profile (right sidebar card)
+author:
+  name: "Danilo Croce"
+  avatar: "/assets/img/profile.jpg"   # optional: put your photo here
+  bio: "Associate Professor at the University of Rome 'Tor Vergata'. Research in NLP, LLMs, ML, IR, Multimodality."
+  location: "Rome, Italy"
+  links:
+    - label: Google Scholar
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.it/citations?user=dXewdYAAAAAJ"
+    - label: Scopus
+      icon: "fas fa-book"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=27567467600"
+    - label: GitHub
+      icon: "fab fa-github"
+      url: "https://github.com/crux82"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-scholar
+
+# Scholar configuration
+scholar:
+  style: ieee
+  locale: en
+  source: _bibliography
+  bibliography: references.bib
+  bibliography_template: bibliography
+  repository: assets/papers
+  details_dir: bibliography
+  query: "@*"
+
+# Collections (optional)
+collections:
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation (uses _data/navigation.yml)
+include:
+  - _pages
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Build settings
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
