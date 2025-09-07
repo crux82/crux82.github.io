@@ -1,33 +1,34 @@
-
 ---
 layout: single
-title: "Projects & Software"
+title: "Projects"
 permalink: /projects/
-author_profile: true
 ---
 
-- **MM-IGLU** — Multimodal grounded language understanding  
-  <https://github.com/crux82/MM-IGLU>
-- **MM-IGLU-IT** — Italian multimodal instruction following  
-  <https://github.com/crux82/MM-IGLU-IT>
-- **ExtremITA** — Instruction-tuned LLM for Italian  
-  <https://github.com/crux82/ExtremITA>
-- **U-DepPLLaMA** — LLM-based dependency parsing  
-  <https://github.com/crux82/u-deppllama>
-- **GrUT** — Language understanding for HRI  
-  <https://github.com/crux82/grut>
-- **FEVER-it** — Fact-checking pipeline for Italian  
-  <https://github.com/crux82/FEVER-it>
-- **EthicalNN** — Ethics-by-design neural framework  
-  <https://github.com/crux82/nn-ebd>
-- **KeLP** — Kernel-based Learning Platform  
-  <http://www.kelp-ml.org>
-- **GAN-BERT** — Adversarial learning for Transformers (few-shot)  
-  <https://github.com/crux82/ganbert> · <https://github.com/crux82/ganbert-pytorch> · <https://github.com/crux82/mt-ganbert>
-- **ACLPUB2** — ACL proceedings tooling  
-  <https://github.com/rycolab/aclpub2> · <https://github.com/acl-org/aclpubcheck>
+## Spin-off Company
+- **Reveal s.r.l.** (co-founder).  
+  Focus: NLP, semantic search, sentiment analysis, industrial AI applications.  
+  Clients: UniCredit, MPS, ENEL, RAI, ISNART, Aker Solutions.  
 
-**Datasets (Italian):**  
-**GQA-IT** <https://github.com/crux82/gqa-it> · **mscoco-it** <https://github.com/crux82/mscoco-it> · 
-**msr-vtt-it** <https://github.com/crux82/msr-vtt-it> · **SQUAD-IT** <https://github.com/crux82/squad-it> ·
-**ABSITA** <http://sag.art.uniroma2.it/absita/> · **SENTIPOLC** <http://www.di.unito.it/~tutreeb/sentipolc-evalita16/>
+## Ongoing Academic Projects
+- **R4MSES** (PNRR FAIR, 2024–2025): Multimodal resources for advanced AI.  
+- **SHIELD** (2024–2026): Secure Healthcare Information with privacy-preserving ML.  
+- **Knowledge Integration for Nuclear Decommissioning** (2024–2025).  
+- **CETERA** (2024–2026): Environmental monitoring with AI.  
+- **AI-driven Event Discovery (ISS)** (2023–2024).  
+- **DECODE (ABILAB)** (2022–2023): LLMs for regulatory documents.  
+
+## Industrial Projects
+- ENEL: Brand reputation analysis.  
+- ACI: Intelligent image processing.  
+- RAI: Sentiment analysis for media.  
+- Monte dei Paschi di Siena: Semantic search for regulations.  
+- Italian Ministry of Interior: Text mining for crime tracking.  
+- Healthcare & Rehabilitation (HeAL9000, Aenduo HomeRehab).  
+
+## Resources & Systems
+- [ExtremITA](https://github.com/crux82/ExtremITA): Instruction-tuned LLM for Italian.  
+- [U-DepPLLaMA](https://github.com/crux82/u-deppllama): Universal dependency parsing with LLMs.  
+- [MM-IGLU](https://github.com/crux82/MM-IGLU), [MM-IGLU-IT](https://github.com/crux82/MM-IGLU-IT).  
+- [GAN-BERT](https://github.com/crux82/ganbert).  
+- [EthicalNN](https://github.com/crux82/nn-ebd).  
+- [FEVER-it](https://github.com/crux82/FEVER-it).  

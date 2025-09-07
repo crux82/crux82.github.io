@@ -1,15 +1,24 @@
-
 ---
 layout: single
-title: "Service & Activities"
+title: "Academic Service"
 permalink: /service/
-author_profile: true
 ---
 
-- **Steering Committee**, Italian Association of Computational Linguistics (AILC), 2022–2025.  
-- **Chair/Organizer roles**: EVALITA 2020 (Chair), CLiC-it 2021/2024 (Publications Chair), NAACL 2022 (Publications Chair),
-  ACL 2022 (Publications Chair), EACL 2023 (Demo Track Chair), AIxIA 2023 (Workshops & Tutorials Chair), EMNLP 2024 (Publications Chair), *SEM/StarSem 2025 (Publications).  
-- **Program Committees** (since 2012–): ACL, EMNLP, NAACL, COLING, EACL, CoNLL, AAAI, IJCAI, ECAI, LREC, SIGIR workshops, ESWC, RO-MAN, NLDB.  
-- **Editorial**: TACL Editorial Board (since 2018); Guest Editor, *Sensors* SI “Deep Learning for Healthcare” (2022).
+## Leadership
+- Head, **Semantic Analytics Group (SAG)**, University of Rome “Tor Vergata” (since 2008).  
+- Steering Committee Member, **AILC** (2022–2025).  
 
-See CV for the complete list.
+## Conference Organization
+- Chair / Organizing Committee roles in **ACL, EMNLP, NAACL, EACL, StarSem, CLiC-it, AIxIA, NL4AI, EVALITA** (2014–2025).  
+- Chair of **EVALITA 2020**, Italy’s main NLP evaluation campaign.  
+
+## Program Committee Member
+Regular reviewer for **AAAI, ACL, IJCAI, ECAI, COLING, EMNLP, CONLL, LREC, SIGIR, RO-MAN, ESWC, NLDB**, and others.  
+
+## Editorial Roles
+- Editorial Board, *Transactions of the ACL (TACL)*.  
+- Editorial Office Head, *Italian Journal of Computational Linguistics*.  
+- Guest Editor, *Sensors* (Special Issue on Deep Learning for Healthcare).  
+
+## Journal Reviewing
+Reviewer for **IEEE TNNLS, IEEE TAC, IR Journal, PLOS ONE, Knowledge-Based Systems, Pattern Recognition Letters, Expert Systems with Applications**, and more.  

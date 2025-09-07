@@ -1,18 +1,29 @@
-
 ---
 layout: single
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
-### Current & recent courses (Tor Vergata)
-- **Operating Systems and Computer Networks** (BSc in Computer Science), 2023–present.
-- **Information Retrieval** (MSc in Computer Science), 2019–present.
-- **Elements of Data Analytics** (MSc in Management Engineering), 2019–present.
-- **Data Management for Big Data Analysis** (2nd Level Master in Big Data in Business).
+## Current Teaching
+- **Operating Systems and Computer Networks** (BSc Computer Science, Tor Vergata).  
+- **Information Retrieval** (MSc Computer Science, Tor Vergata).  
+- **Data Management for Big Data Analysis** (MSc Big Data in Business).  
+- **Elements of Data Analytics** (MSc Management Engineering).  
 
-### Schools & tutorials
-- **BISS 2024** — *Large Language Models* (Bertinoro International Spring School).  
-- **CLiC-it 2023** — *LLMs and Instruction Tuning (Sustainably)*.  
-- **Lectures on Computational Linguistics 2021** — *Training Neural Architectures for NLP*.
+## Previous Courses
+- **Java Programming for Mobile Devices** (BSc Computer Science).  
+- Teaching assistant in **Web Mining & Retrieval, Databases, Knowledge Management**.  
+
+## Graduate Programs
+- Faculty member, **PhD in Data Science** at Tor Vergata.  
+- Lecturer, Master in **Data Science for Public Administration**.  
+- Lecturer, Master in **Big Data in Business**.  
+
+## Summer Schools & Tutorials
+- Invited Lecturer: *Large Language Models*, Bertinoro International Spring School (2024).  
+- Lecture: *LLMs*, Advances in AI Summer School (Lake Como, 2024).  
+- Tutorial: *LLMs and Instruction Tuning*, CLiC-it 2023.  
+- Tutorial: *Training Neural Architectures for NLP*, AILC Lectures (2021).  
+
+## Supervision
+I have co-supervised multiple PhD theses (e.g., Emanuele Bastianelli, Simone Filice, Giuseppe Castellucci) and numerous MSc theses in Computer Science and Engineering.  
