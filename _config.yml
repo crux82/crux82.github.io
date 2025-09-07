@@ -15,6 +15,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: references.bib
 
 paginate: 10
 locale: "en-US"
