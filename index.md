@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Danilo Croce"
 author_profile: true
 ---
 

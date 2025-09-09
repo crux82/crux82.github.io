@@ -79,7 +79,7 @@ h3 {
   .bibliography p,
   .bibliography li,
   .bibliography li span {
-    font-size: 0.95rem !important; /* ~15px */
+    font-size: 1.1rem !important; /* ~15px */
     line-height: 1.5 !important;
     margin-bottom: 0.55rem;
   }
@@ -93,26 +93,30 @@ h3 {
 
   /* navbar un filo più grande su mobile per tap target */
   .masthead__menu-item a { font-size: 0.9rem !important; }
+
+  .sidebar { display: none !important; }
+  .sidebar.sticky { position: static !important; }
+  .page { padding-left: 0 !important; }
+  .page__inner-wrap { margin-left: 0 !important; }
 }
 
-/* =========================
-   Layout centrale
-   ========================= */
-@media (min-width: 768px) {
-  .page__content {
-    max-width: 960px;
-    margin: auto;
-  }
-}
 
 /* =========================
    Bottoni (usa colori della skin)
    ========================= */
+/* Bottoni primari: hover verde pieno */
 .btn--primary {
-  border-radius: .5rem;
-  transition: filter .15s ease;
+  background-color: $btn-primary-color;
+  border-color: $btn-primary-color;
+  color: $btn-color;
+  transition: background-color .2s ease, border-color .2s ease;
 }
-.btn--primary:hover { filter: brightness(0.97); }
+
+.btn--primary:hover {
+  background-color: $btn-primary-hover !important;
+  border-color: $btn-primary-hover !important;
+  color: $btn-color !important;
+}
 
 /* Evidenziazioni (dalla skin) */
 mark, .notice--primary { background-color: $highlight-color; }
@@ -162,12 +166,12 @@ mark, .notice--primary { background-color: $highlight-color; }
    Navbar compatta (desktop)
    ========================= */
 .masthead__menu-item a {
-  font-size: 0.8rem !important;
+  font-size: 0.85rem !important;
 }
 
 /* titolo sito un po' più piccolo */
 .greedy-nav .site-title {
-  font-size: 0.9rem !important;
+  font-size: 1.25rem !important;
 }
 
 /* =========================
