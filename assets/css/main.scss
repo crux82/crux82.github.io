@@ -1,59 +1,54 @@
 ---
 # Only the main Sass file needs front matter
 ---
-@import "minimal-mistakes/skins/torvergata"; // forza questa skin
+@import "minimal-mistakes/skins/torvergata"; // usa la tua skin personalizzata
 @import "minimal-mistakes";
 
 /* =========================
-   Profilo
+   Profilo (avatar)
    ========================= */
 .author__avatar img {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  max-width: 140px; /* leggermente più piccola */
+  max-width: 140px;
 }
 
 /* =========================
-   Tipografia base (80%)
+   Tipografia base (80% desktop)
    ========================= */
 .page__content p,
 .page__content li,
 .page__content span {
-  font-size: 0.8rem !important;   /* ↓ testo base */
-  line-height: 1.35 !important;
-  margin-bottom: 0.4rem;
-}
-
-.archive p {
   font-size: 0.8rem !important;
   line-height: 1.35 !important;
   margin-bottom: 0.4rem;
 }
 
+.archive p,
 .bibliography p,
 .bibliography li {
   font-size: 0.8rem !important;
   line-height: 1.35 !important;
   margin-bottom: 0.4rem;
 }
-.bibliography li span {
-  font-size: 0.8rem !important;
-}
+.bibliography li span { font-size: 0.8rem !important; }
 
 /* =========================
-   Link
+   Link (solo underline più pulita)
    ========================= */
 a {
   text-decoration-thickness: .07em;
   text-underline-offset: .15em;
 }
-a:hover {
-  text-decoration-thickness: .1em;
-}
+a:hover { text-decoration-thickness: .1em; }
 
 /* =========================
-   Titoli (ridotti 80%)
+   Titoli compatti + colore Tor Vergata
    ========================= */
+.page__title, h1, h2, h3 {
+  color: $header-color !important; /* dal tema torvergata */
+}
+
 .page__title, h1 {
   font-size: 1.25rem !important;
   line-height: 1.2;
@@ -74,6 +69,33 @@ h3 {
 }
 
 /* =========================
+   Regole responsive (mobile più leggibile)
+   ========================= */
+@media (max-width: 768px) {
+  .page__content p,
+  .page__content li,
+  .page__content span,
+  .archive p,
+  .bibliography p,
+  .bibliography li,
+  .bibliography li span {
+    font-size: 0.95rem !important; /* ~15px */
+    line-height: 1.5 !important;
+    margin-bottom: 0.55rem;
+  }
+
+  .page__title, h1 {
+    font-size: 1.35rem !important;
+    margin-bottom: 0.75rem;
+  }
+  h2 { font-size: 1.1rem !important; }
+  h3 { font-size: 0.95rem !important; }
+
+  /* navbar un filo più grande su mobile per tap target */
+  .masthead__menu-item a { font-size: 0.9rem !important; }
+}
+
+/* =========================
    Layout centrale
    ========================= */
 @media (min-width: 768px) {
@@ -84,7 +106,7 @@ h3 {
 }
 
 /* =========================
-   Bottoni
+   Bottoni (usa colori della skin)
    ========================= */
 .btn--primary {
   border-radius: .5rem;
@@ -92,11 +114,20 @@ h3 {
 }
 .btn--primary:hover { filter: brightness(0.97); }
 
-/* Evidenziazioni */
+/* Evidenziazioni (dalla skin) */
 mark, .notice--primary { background-color: $highlight-color; }
 
 /* =========================
-   Recent posts
+   HR un filo più scuro
+   ========================= */
+.page__content hr, hr {
+  border: 0;
+  border-top: 1px solid mix($border-color, #000, 85%); /* leggermente più scuro */
+  margin: 1rem 0;
+}
+
+/* =========================
+   Recent posts (card leggere)
    ========================= */
 .archive__item {
   border: 1px solid #eee;
@@ -109,22 +140,11 @@ mark, .notice--primary { background-color: $highlight-color; }
   transform: translateY(-1px);
   box-shadow: 0 5px 12px rgba(0,0,0,.06);
 }
-
-
-// ========================
-// Override globale
-// ========================
-body {
-  background-color: $background-color;
-}
-/* Titolo post */
 .archive__item-title {
   font-size: 0.9rem;
   line-height: 1.25;
   margin-bottom: .3rem;
 }
-
-/* Estratto */
 .archive__item-excerpt p {
   margin: .25rem 0 0;
   display: -webkit-box;
@@ -132,8 +152,6 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-/* Metadati */
 .page__meta,
 .archive__item-meta {
   font-size: .75rem;
@@ -141,13 +159,25 @@ body {
 }
 
 /* =========================
-   Navbar
+   Navbar compatta (desktop)
    ========================= */
 .masthead__menu-item a {
-  font-size: 0.8rem !important;  /* più piccolo */
+  font-size: 0.8rem !important;
 }
 
+/* titolo sito un po' più piccolo */
 .greedy-nav .site-title {
   font-size: 0.9rem !important;
 }
 
+/* =========================
+   Background (dalla skin)
+   ========================= */
+body { background-color: $background-color; }
+
+/* =========================
+   Accessibilità: riduci animazioni
+   ========================= */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
