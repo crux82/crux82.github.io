@@ -3,14 +3,12 @@ name: "Danilo Croce"
 description: "Associate Professor in Computer Science · NLP · LLMs · IR · HRI · Multimodality"
 url: "https://crux82.github.io"
 baseurl: "" 
-head_scripts:
-  - '<link rel="icon" href="{{ "./assets/images/favicon.ico" | relative_url }}" type="image/x-icon">'
 
 theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 #minimal_mistakes_skin: "mint"   # colore accento
-minimal_mistakes_skin: "torvergata"
+minimal_mistakes_skin: "air"
 #minimal_mistakes_skin: "air"   # puoi provare "air", mint", "contrast", "sunrise", "dirt"...
 
 
@@ -61,3 +59,6 @@ include:
 collections:
   posts:
     output: true
+
+atom_feed:
+  hide: true
