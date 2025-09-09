@@ -24,9 +24,3 @@ My work spans from the **theoretical foundations of semantic learning** to the *
 </div>
 
 ---
-
-### Curriculum Vitae
-- 📄 <a href="{{ '/files/croce_cv_may2025_ita.pdf' | relative_url }}">Download CV (Italiano)</a>  
-- 📄 <a href="{{ '/files/croce_cv_may2025_eng.pdf' | relative_url }}">Download CV (English)</a>
-
----

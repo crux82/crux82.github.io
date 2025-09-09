@@ -41,9 +41,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/crux82"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/yourhandle"
 
 defaults:
   - scope:
