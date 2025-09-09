@@ -3,6 +3,8 @@ name: "Danilo Croce"
 description: "Associate Professor in Computer Science · NLP · LLMs · IR · HRI · Multimodality"
 url: "https://crux82.github.io"
 baseurl: "" 
+head_scripts:
+  - '<link rel="icon" href="{{ "./assets/images/favicon.ico" | relative_url }}" type="image/x-icon">'
 
 theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
