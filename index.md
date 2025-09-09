@@ -26,7 +26,7 @@ My work spans from the **theoretical foundations of semantic learning** to the *
 
 ---
 
-### Latest
+### Recent Posts
 <ul>
 {% for post in site.posts limit:3 %}
   <li>
