@@ -7,7 +7,7 @@ permalink: /about/
 ## Biography
 I am an **Associate Professor** (*SSD* **INFO-01/A**, *ex* **INF/01 – Computer Science**) in the [Department of Enterprise Engineering](https://dii.uniroma2.it/) at the [University of Rome “Tor Vergata”](http://web.uniroma2.it/).  
 I lead the **[Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it)** and contribute to the **[Artificial Intelligence at Tor Vergata (ART)](https://art.uniroma2.it/)** network.
-  
+
 My work sits at the intersection of **Machine Learning**, **Natural Language Processing**, and **Multimodality**, with a consistent focus on **transparency**, **sustainability**, and **impactful applications**.
 
 ---
@@ -22,7 +22,17 @@ The common thread is to make neural architectures **transparent, sustainable, an
 - **Semantic Search & Evidence-based AI** — retrieval-augmented generation (RAG), fact verification, adaptive IR.  
 - **Multimodality & Grounding** — language–vision models for captioning, VQA, and situated reasoning.  
 - **Human–Robot Interaction** — spoken language understanding and context-aware, adaptive interfaces.  
-- **Ethics & Transparency** — interpretability, fairness, and “ethics-by-design” methodologies.
+- **Ethics & Transparency** — interpretability, fairness, and “ethics-by-design” methodologies.  
+
+**Application domains**  
+Beyond foundational research, my work has been applied across a wide range of domains:  
+- **Digital Tourism** — sentiment analysis of reviews, reputation monitoring, adaptive recommender systems.  
+- **Finance & Public Administration** — semantic search and compliance for regulatory and financial documents.  
+- **Social Media & Society** — misinformation detection, sentiment and opinion mining, epidemic trend discovery.  
+- **Public Safety & Security** — AI systems for text analysis and crime tracking.  
+- **Industrial & Environmental Monitoring** — neural approaches for wastewater control, environmental analytics.  
+- **Media & Accessibility** — sentiment analysis for broadcasting, intelligent assistants for accessibility.  
+- **Healthcare & Medicine** — epidemic intelligence, cancer diagnostics, medical robotics, privacy-preserving ML.  
 
 ---
 
