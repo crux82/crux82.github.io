@@ -1,0 +1,34 @@
+// _sass/minimal-mistakes/skins/_torvergata.scss
+
+// Palette Tor Vergata
+$brand-color:               #007A5E; // primary
+$accent-color:              #005F49; // hover/border
+
+// Link generali
+$link-color:                #004C3B;
+$link-color-hover:          darken($link-color, 8%);
+
+// Titoli (H1/H2/H3 site-wide)
+$header-color:              $brand-color;  // usa verde Tor Vergata
+
+// Navbar / masthead
+$masthead-link-color:       #004C3B;
+$masthead-link-color-hover: #005F49;
+
+// Sidebar / TOC
+$nav-link-color:            #004C3B;
+$nav-link-color-hover:      #005F49;
+
+// Bottoni
+$btn-color:                 #fff;
+$btn-primary-color:         #007A5E;
+$btn-primary-hover:         #005F49;
+
+// Evidenziazioni
+$highlight-color:           #A5D6C1;
+
+// Background rilassante (verde-ghiaccio molto chiaro)
+$background-color:          #faf8f6;;
+
+// Linee divisorie (più scure)
+$border-color:              #cbd5d1; // grigio medio-verde elegante

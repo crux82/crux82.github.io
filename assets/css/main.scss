@@ -1,74 +1,153 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes/skins/torvergata"; // forza questa skin
 @import "minimal-mistakes";
 
-/* ============================
-   OVERRIDE STILI PERSONALIZZATI
-   ============================ */
-
-/* === FOTO PROFILO === */
+/* =========================
+   Profilo
+   ========================= */
 .author__avatar img {
-  border-radius: 12px;               /* rettangolo smussato */
+  border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  max-width: 150px;                  /* leggermente più piccola */
+  max-width: 140px; /* leggermente più piccola */
 }
 
-/* === TIPOGRAFIA BASE === */
+/* =========================
+   Tipografia base (80%)
+   ========================= */
 .page__content p,
 .page__content li,
-.page__content a,
 .page__content span {
-  font-size: 0.9rem !important;
-  line-height: 1.5 !important;
-  color: #333;                       /* meno nero, più morbido */
+  font-size: 0.8rem !important;   /* ↓ testo base */
+  line-height: 1.35 !important;
+  margin-bottom: 0.4rem;
 }
 
-/* Paragrafo introduttivo nelle pagine (es. Publications) */
 .archive p {
-  font-size: 0.9rem !important;
-  line-height: 1.5 !important;
-  color: #555;
-  margin-bottom: 1rem;
+  font-size: 0.8rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.4rem;
 }
 
-/* Bibliografia */
 .bibliography p,
 .bibliography li {
-  font-size: 0.9rem !important;
-  line-height: 1.5 !important;
-  margin-bottom: 0.5rem;
+  font-size: 0.8rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.4rem;
 }
 .bibliography li span {
-  font-size: 0.9rem !important;
-}
-.bibliography a {
-  color: #2d6cdf;                    /* blu elegante */
-  text-decoration: none;
-}
-.bibliography a:hover {
-  text-decoration: underline;
+  font-size: 0.8rem !important;
 }
 
-/* === TITOLI === */
+/* =========================
+   Link
+   ========================= */
+a {
+  text-decoration-thickness: .07em;
+  text-underline-offset: .15em;
+}
+a:hover {
+  text-decoration-thickness: .1em;
+}
+
+/* =========================
+   Titoli (ridotti 80%)
+   ========================= */
 .page__title, h1 {
-  font-size: 1.5rem !important;
-  color: #2c3e50;                     /* blu-grigio accademico */
+  font-size: 1.25rem !important;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
 }
 h2 {
-  font-size: 1.2rem !important;
-  color: #34495e;
+  font-size: 1rem !important;
+  line-height: 1.25;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 h3 {
-  font-size: 1rem !important;
-  color: #555;
+  font-size: 0.85rem !important;
+  line-height: 1.2;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
 }
 
-/* === LAYOUT CENTRALE === */
+/* =========================
+   Layout centrale
+   ========================= */
 @media (min-width: 768px) {
   .page__content {
-    max-width: 960px;                 /* meno largo, più leggibile */
+    max-width: 960px;
     margin: auto;
   }
 }
+
+/* =========================
+   Bottoni
+   ========================= */
+.btn--primary {
+  border-radius: .5rem;
+  transition: filter .15s ease;
+}
+.btn--primary:hover { filter: brightness(0.97); }
+
+/* Evidenziazioni */
+mark, .notice--primary { background-color: $highlight-color; }
+
+/* =========================
+   Recent posts
+   ========================= */
+.archive__item {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,.04);
+  transition: transform .08s ease, box-shadow .12s ease;
+}
+.archive__item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(0,0,0,.06);
+}
+
+
+// ========================
+// Override globale
+// ========================
+body {
+  background-color: $background-color;
+}
+/* Titolo post */
+.archive__item-title {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  margin-bottom: .3rem;
+}
+
+/* Estratto */
+.archive__item-excerpt p {
+  margin: .25rem 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Metadati */
+.page__meta,
+.archive__item-meta {
+  font-size: .75rem;
+  margin-top: .2rem;
+}
+
+/* =========================
+   Navbar
+   ========================= */
+.masthead__menu-item a {
+  font-size: 0.8rem !important;  /* più piccolo */
+}
+
+.greedy-nav .site-title {
+  font-size: 0.9rem !important;
+}
+

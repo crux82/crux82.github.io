@@ -8,7 +8,9 @@ theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 #minimal_mistakes_skin: "mint"   # colore accento
-minimal_mistakes_skin: "air"   # puoi provare "air", mint", "contrast", "sunrise", "dirt"...
+minimal_mistakes_skin: "torvergata"
+#minimal_mistakes_skin: "air"   # puoi provare "air", mint", "contrast", "sunrise", "dirt"...
+
 
 plugins:
   - jekyll-include-cache
@@ -49,6 +51,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
 
 include:
   - _pages
