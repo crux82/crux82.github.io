@@ -185,3 +185,34 @@ body { background-color: $background-color; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+
+/* Footer più sottile e discreto */
+.page__footer {
+  padding: .5rem 0 !important;              /* riduce l’altezza */
+  background: transparent;                  /* niente barra piena */
+  border-top: 1px solid rgba(0,0,0,.06);
+}
+
+.site-footer-custom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:0.8rem;
+  color:#555;
+  margin-top:0;
+}
+.site-footer-custom .footer-quote{font-style:italic;}
+.site-footer-custom cite{
+  font-style:normal; /* l'autore non in corsivo */
+  color:#777;        /* più chiaro, evita confusione col tuo nome */
+}
+
+/* Mobile: va a capo in maniera pulita */
+@media (max-width: 640px){
+  .site-footer-custom{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:.2rem;
+  }
+}
