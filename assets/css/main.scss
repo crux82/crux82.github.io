@@ -187,32 +187,67 @@ body { background-color: $background-color; }
 }
 
 
-/* Footer più sottile e discreto */
+/* =========================
+   Superfici: navbar e footer
+   ========================= */
+$nav-surface:    mix($background-color, $brand-color, 96%); 
+$footer-surface: mix($background-color, $brand-color, 93%); 
+$soft-sep:       mix($border-color, #000, 85%);
+
+/* NAVBAR (masthead) */
+.masthead {
+  background-color: $nav-surface !important;
+  border-bottom: 1px solid $soft-sep;
+  box-shadow: 0 1px 0 rgba(0,0,0,.04);
+}
+.greedy-nav,
+.masthead__menu { background: transparent !important; }
+
+/* FOOTER */
 .page__footer {
-  padding: .5rem 0 !important;              /* riduce l’altezza */
-  background: transparent;                  /* niente barra piena */
-  border-top: 1px solid rgba(0,0,0,.06);
+  background-color: $footer-surface !important;
+  border-top: 1px solid $soft-sep;
+  padding: .6rem 0 !important; /* compatto */
 }
 
-.site-footer-custom{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  font-size:0.8rem;
-  color:#555;
-  margin-top:0;
-}
-.site-footer-custom .footer-quote{font-style:italic;}
-.site-footer-custom cite{
-  font-style:normal; /* l'autore non in corsivo */
-  color:#777;        /* più chiaro, evita confusione col tuo nome */
+/* =========================
+   Footer custom line
+   ========================= */
+.site-footer-custom {
+  margin: 0;
+  font-size: .8rem;
+  color: #555;
+  display: flex;
+  justify-content: space-between; /* sinistra + destra */
+  align-items: center;
+  gap: 1rem;
 }
 
-/* Mobile: va a capo in maniera pulita */
-@media (max-width: 640px){
-  .site-footer-custom{
-    flex-direction:column;
-    align-items:flex-start;
-    gap:.2rem;
+.site-footer-custom .footer-line { 
+  margin: 0; 
+  line-height: 1.2; 
+}
+
+.site-footer-custom .footer-quote { 
+  font-style: italic; 
+}
+.site-footer-custom cite {
+  font-style: normal; 
+  color: #777;  /* evita confusione col tuo nome */
+}
+
+/* Mobile: riga spezzata in colonna */
+@media (max-width: 640px) {
+  .site-footer-custom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .2rem;
   }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .page__footer { border-top-color: rgba(255,255,255,.1); }
+  .site-footer-custom { color: #bbb; }
+  .site-footer-custom cite { color: #999; }
 }
