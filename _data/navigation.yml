@@ -1,15 +1,17 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Publications"
-    url: /publications/
   - title: "Teaching"
     url: /teaching/
   - title: "Projects"
     url: /projects/
+  - title: "Software & Resources"
+    url: /software/
   - title: "Awards"
     url: /awards/
   - title: "Service"
     url: /service/
   - title: "Contact"
     url: /contact/
+  - title: "Publications"
+    url: /publications/
