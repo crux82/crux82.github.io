@@ -55,3 +55,7 @@ defaults:
 
 include:
   - _pages
+
+collections:
+  posts:
+    output: true
