@@ -2,7 +2,7 @@ title: "Danilo Croce"
 name: "Danilo Croce"
 description: "Associate Professor in Computer Science · NLP · LLMs · IR · HRI · Multimodality"
 url: "https://danilocroce.github.io"
-baseurl: "" 
+baseurl: ""   # vuoto per user site
 
 theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
