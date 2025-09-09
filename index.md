@@ -3,25 +3,29 @@ layout: single
 author_profile: true
 ---
 
-Welcome!  
-I am **Danilo Croce**, Associate Professor at the University of Rome “Tor Vergata”.  
-My research lies at the intersection of **Natural Language Processing, Large Language Models (LLMs), Machine Learning, Information Retrieval, Human–Robot Interaction, and Multimodality**.
+### Welcome!  
 
-I lead the [Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it) and I am a member of the **Artificial Intelligence at Tor Vergata (ART)** research group.
+I am **Danilo Croce**, **Associate Professor** (*SSD INFO-01/A, ex INF/01 – Computer Science*) in the 
+[Department of Enterprise Engineering](https://dii.uniroma2.it/) at the [University of Rome “Tor Vergata”](http://web.uniroma2.it/).
 
-My work spans from the **theoretical foundations of semantic learning** to the **development of large-scale intelligent systems**, with strong emphasis on **epistemological transparency, ethics in AI, and multimodality**.
+I am a researcher in **Machine Learning** and **Artificial Intelligence**, with a focus on  
+**Natural Language Processing**, **Multimodality**, and **Ethics in AI**.  My work combines **theoretical models** with **large-scale applications**, aiming for methods that are  
+**transparent**, **sustainable**, and impactful in real-world domains such as:  
+
+- Language Models and Generative AI  
+- Semantic Search and Retrieval-Augmented Generation  
+- Human–Robot Interaction  
+- Social Media and Opinion Mining  
+- Digital Tourism, Healthcare, and Public Safety  
 
 ---
 
-### Explore
-<a class="btn" href="{{ '/about/' | relative_url }}">About</a>
-<a class="btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
-<a class="btn" href="{{ '/projects/' | relative_url }}">Projects</a>
-<a class="btn" href="{{ '/software/' | relative_url }}">Software & Resources</a>
-<a class="btn" href="{{ '/awards/' | relative_url }}">Awards</a>
-<a class="btn" href="{{ '/service/' | relative_url }}">Service</a>
-<a class="btn" href="{{ '/contact/' | relative_url }}">Contact</a>
-<a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+## Quick Links
+- [About me](/about/)  
+- [Publications](/publications/)  
+- [Teaching](/teaching/)  
+- [Curriculum Vitae](/files/croce_cv_may2025_eng.pdf)  
+
 
 ---
 
