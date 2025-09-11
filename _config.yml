@@ -43,6 +43,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/crux82"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0001-9111-1950"
 
 defaults:
   - scope:
