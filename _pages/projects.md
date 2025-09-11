@@ -9,6 +9,7 @@ permalink: /projects/
 - **SHIELD** (2024–2026) – Privacy-preserving ML for healthcare.  
 - **Knowledge Integration for Nuclear Decommissioning** (2024–2025).  
 - **CETERA** (2024–2026) – AI agents with LLMs for education and digital learning.
+- **Aenduo – HomeRehab** (PNRR, 2024–2025) – AI assistant for home rehabilitation.  
 - **AI-driven Event Discovery (ISS)** (2023–2024) – NLP for epidemic intelligence.  
 - **DECODE (ABILAB)** (2022–2023) – LLMs for regulatory compliance.  
 
