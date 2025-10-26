@@ -6,6 +6,8 @@ permalink: /awards/
 
 ## Scientific Awards
 
+- **Outstanding Paper Award**, Workshop on NLP for Positive Impact (NLP4PI @ ACL 2025) – *Unsupervised Sustainability Report Labeling based on the integration of the GRI and SDG standards* {% cite mousavian-anaraki-etal-2025-unsupervised %}  
+
 - **Best System Award**, EVALITA 2023 – *ExtremITA: An instruction-tuned LLM for Italian* {% cite DBLP:conf/evalita/HromeiCB023 %}  
 
 - **Best Paper Award**, International Conference on Deep Learning Theory and Applications (DeLTA 2023) – *Automatic Stance Detection with Italian Large Language Models* {% cite DBLP:conf/delta2/MargiottaC023 %}  
