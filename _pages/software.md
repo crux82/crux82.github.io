@@ -5,21 +5,27 @@ permalink: /software/
 ---
 
 ## 💻 Frameworks & Toolkits
-- **[KeLP](http://www.kelp-ml.org/)** – Kernel-based Learning Platform for scalable ML.  
-- **[GAN-BERT](https://github.com/crux82/ganbert)** – Few-shot adversarial learning on Transformers.  
-- **[GAN-BERT-PyTorch](https://github.com/crux82/ganbert-pytorch)** – PyTorch/HF port of GAN-BERT.  
-- **[MT-GANBERT](https://github.com/crux82/mt-ganbert)** – Multi-task + GAN-BERT for sustainable NLP.  
+- **[GAN-BERT](https://github.com/crux82/ganbert)** – Few-shot adversarial learning on Transformers (ACL 2020).  
+- **[GAN-BERT-PyTorch](https://github.com/crux82/ganbert-pytorch)** – PyTorch/HF port of GAN-BERT (ACL 2020).  
+- **[GroundedSRL4HRI](https://github.com/crux82/GroundedSRL4HRI)** – Synthetic multimodal dataset and framework for *Grounded Semantic Role Labeling* in Human–Robot Interaction. *(EMNLP 2025)*
+- **[MT-GANBERT](https://github.com/crux82/mt-ganbert)** – Multi-task + GAN-BERT for sustainable NLP (NL4AI 2021).  
+- **[UniTor@BioASQ](https://github.com/crux82/BioASQ2025-UNITOR)** – Biomedical QA system and benchmark for the BioASQ@CLEF 2025 challenge.  
+- **[MM-IGLU-Dialogues](https://github.com/crux82/MM-IGLU-Dialogues)** – Multimodal benchmark for dialogue planning in 3D grounded environments (ACL 2025 Findings).
+- **[dats](https://github.com/crux82/dats)** – Data augmentation for NLP (NAACL 2022).
+- **[BacKGen](https://github.com/crux82/BacKGen)** – Background Knowledge Generator (Analogy-Angle@ACL 2025).  
+- **[KeLP](http://www.kelp-ml.org/)** – Kernel-based Learning Platform for scalable ML (JMLR 2017).  
 - **[EthicalNN](https://github.com/crux82/nn-ebd)** – *Ethics by Design* framework in PyTorch.  
 - **[GrUT](https://github.com/crux82/grut)** – Semantic parsing for Human-Robot Interaction.  
 - **[LU4R](http://sag.art.uniroma2.it/lu4r.html)** – Adaptive spoken language understanding for robots.  
 - **[ACLPUB2](https://github.com/rycolab/aclpub2)** – ACL proceedings generation tool.  
-- **[BacKGen](https://github.com/crux82/BacKGen)** – Background Knowledge Generator.  
-- **[dats](https://github.com/crux82/dats)** – Data augmentation for NLP.  
+
+
 
 ---
 
 ## 📚 Datasets & Benchmarks
-- **[ExtremITA](https://github.com/crux82/ExtremITA)** – Instruction-tuned LLM for Italian.  
+- **[ExtremITA](https://github.com/crux82/ExtremITA)** – Instruction-tuned LLM for Italian (EVALITA 2023).  
+- **[SQuAD-it](https://github.com/crux82/squad-it)** – 60K Q/A triples for reading comprehension.  
 - **[U-DepPLLaMA](https://github.com/crux82/u-deppllama)** – Universal dependency parsing with LLMs.  
 - **[MM-IGLU](https://github.com/crux82/MM-IGLU)**, **[MM-IGLU-IT](https://github.com/crux82/MM-IGLU-IT)** & **[MM-IGLU-Dialogues](https://github.com/crux82/MM-IGLU-Dialogues)** – Multimodal grounded understanding benchmarks.  
 - **[FEVER-it](https://github.com/crux82/FEVER-it)** – Italian fact-checking dataset & pipeline.  
@@ -27,7 +33,6 @@ permalink: /software/
 - **[GQA-it](https://github.com/crux82/gqa-it)** – 1M+ Visual Question Answering pairs in Italian.  
 - **[mscoco-it](https://github.com/crux82/mscoco-it)** – 600K captions for Italian Image Captioning.  
 - **[msr-vtt-it](https://github.com/crux82/msr-vtt-it)** – 200K Italian video caption pairs.  
-- **[SQuAD-it](https://github.com/crux82/squad-it)** – 60K Q/A triples for reading comprehension.  
 - **[ABSITA](http://sag.art.uniroma2.it/absita/)** – Tourism opinion mining dataset.  
 - **[SENTIPOLC](http://www.di.unito.it/~tutreeb/sentipolc-evalita16/)** – 10K annotated Italian tweets.  
 

@@ -6,6 +6,9 @@ permalink: /awards/
 
 ## Scientific Awards
 
+- **Top System Award**, BioASQ 2025 – *UniTor: Modular Biomedical Question Answering System*  
+  (**1st place in Factoid and Ideal Answer tasks**) {% cite Borazio2025UniTorBioASQ %}.
+
 - **Outstanding Paper Award**, Workshop on NLP for Positive Impact (NLP4PI @ ACL 2025) – *Unsupervised Sustainability Report Labeling based on the integration of the GRI and SDG standards* {% cite mousavian-anaraki-etal-2025-unsupervised %}  
 
 - **Best System Award**, EVALITA 2023 – *ExtremITA: An instruction-tuned LLM for Italian* {% cite DBLP:conf/evalita/HromeiCB023 %}  
@@ -33,6 +36,7 @@ permalink: /awards/
 
 ## Systems Evaluated in International Campaigns
 
+- **BioASQ 2025 (Task 13b)** – Participation with the **UniTor** system for modular biomedical QA {% cite Borazio2025UniTorBioASQ %} (**1st place** in Factoid and Ideal Answer tasks).  
 - **EVALITA 2023** – Participation in all 13 tasks with the **ExtremITA** system {% cite DBLP:conf/evalita/HromeiCB023 %}  
 - **EVALITA 2020** – Stance Detection {% cite DBLP:conf/evalita/GiorgioniPS0C20 %}; Meme Recognition {% cite DBLP:conf/evalita/BreazzanoRC020 %}  
 - **EVALITA 2018** – Irony Detection {% cite DBLP:conf/evalita/SantilliC018 %}; Speech Act Labeling {% cite DBLP:conf/evalita/Croce018 %}  

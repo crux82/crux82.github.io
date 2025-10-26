@@ -23,6 +23,7 @@ permalink: /service/
   - [SENTIPOLC 2016](http://www.di.unito.it/~tutreeb/sentipolc-evalita16/) – Twitter Sentiment Analysis at EVALITA.  
 
 - **Organizing Committee Member**
+  - [EACL 2026](https://2026.eacl.org/committees/organization/) – Demonstration Track Chair.
   - [StarSem 2025](https://starsem2025.github.io/) – Publication Chair.  
   - [EMNLP 2024](https://2024.emnlp.org/organization/) – Publication Chair.  
   - [EACL 2024](https://2024.eacl.org/committees/organization/) – Publication Chair.  
