@@ -65,3 +65,10 @@ collections:
 
 atom_feed:
   hide: true
+
+social:
+  name: "Danilo Croce"
+  links:
+    - "https://scholar.google.it/citations?user=dXewdYAAAAAJ"
+    - "https://github.com/crux82"
+    - "https://orcid.org/0000-0001-9111-1950"

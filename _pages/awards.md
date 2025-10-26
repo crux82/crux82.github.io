@@ -6,6 +6,9 @@ permalink: /awards/
 
 ## Scientific Awards
 
+A selection of international awards and recognitions for research excellence, system performance, and contributions to the NLP community.
+
+
 - **Top System Award**, BioASQ 2025 – *UniTor: Modular Biomedical Question Answering System*  
   (**1st place in Factoid and Ideal Answer tasks**) {% cite Borazio2025UniTorBioASQ %}.
 
