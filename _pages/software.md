@@ -4,6 +4,8 @@ title: "Software & Resources"
 permalink: /software/
 ---
 
+This page lists open-source frameworks, datasets, and benchmarks developed or co-authored by our group.
+
 ## 💻 Frameworks & Toolkits
 - **[GAN-BERT](https://github.com/crux82/ganbert)** – Few-shot adversarial learning on Transformers (ACL 2020).  
 - **[GAN-BERT-PyTorch](https://github.com/crux82/ganbert-pytorch)** – PyTorch/HF port of GAN-BERT (ACL 2020).  
