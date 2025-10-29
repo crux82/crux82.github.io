@@ -15,7 +15,7 @@ It combines **theoretical models** with **large-scale applications** across doma
 - Applied AI in healthcare, tourism, and public safety  
 
 ## Quick Links
-[About me](/about/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/files/croce_cv_may2025_eng.pdf)
+[About me](/about/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/files/croce_cv_oct2025_ita.pdf)
 
 ## Recent Posts
 <ul>
