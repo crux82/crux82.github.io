@@ -9,5 +9,8 @@ gem "jekyll-feed"
 gem "jekyll-avatar"
 gem "jekyll-scholar"
 
+# 🔧 Aggiungi questa riga:
+gem "jekyll-sass-converter", "~> 2.2.0"
+
 # Per test locale
 gem "webrick", "~> 1.8"
