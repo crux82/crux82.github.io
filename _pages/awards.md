@@ -8,6 +8,9 @@ permalink: /awards/
 
 This page lists research awards, system recognitions, and benchmark achievements.
 
+- **Best Paper Award**, *14th Joint Conference on Lexical and Computational Semantics* (*SEM 2025)* –  
+  *Injecting Frame Semantics into Large Language Models via Prompt-Based Fine-Tuning*  
+  {% cite rai-etal-2025-injecting %}
 
 - **Top System Award**, BioASQ 2025 – *UniTor: Modular Biomedical Question Answering System*  
   (**1st place in Factoid and Ideal Answer tasks**) {% cite Borazio2025UniTorBioASQ %}.
