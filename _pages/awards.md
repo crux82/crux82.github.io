@@ -8,7 +8,11 @@ permalink: /awards/
 
 This page lists research awards, system recognitions, and benchmark achievements.
 
-- **Best Paper Award**, *14th Joint Conference on Lexical and Computational Semantics* (*SEM 2025)* –  
+- **Honorable Mention**, “Federico Sangati” Best System Award, EVALITA 2026 –  
+  *UniTor at DeSegMa-It: Analyzing Supervision and Encoder Representations for Italian Machine-Generated Text Detection*  
+  {% cite DBLP:conf/evalita/BorazioLPCB26 %}
+
+- **Best Paper Award**, *14th Joint Conference on Lexical and Computational Semantics* (**\*SEM 2025**) –
   *Injecting Frame Semantics into Large Language Models via Prompt-Based Fine-Tuning*  
   {% cite rai-etal-2025-injecting %}
 
@@ -42,6 +46,10 @@ This page lists research awards, system recognitions, and benchmark achievements
 
 ## Systems Evaluated in International Campaigns
 
+- **EVALITA 2026 – Cruciverb-IT: Crossword Solving** – Participation with the **UniTor** system {% cite DBLP:conf/evalita/ShcherbakovCB26 %} (**Best System**).
+- **EVALITA 2026 – EVWSD-ITA: Enhanced Visual Word Sense Disambiguation for Italian** – Participation with the **UniTor** system {% cite DBLP:conf/evalita/HromeiSCB26 %} (**Best System**).
+- **EVALITA 2026 – DeSegMa-It: Detection and Segmentation of Machine-Generated Texts in Italian** – Participation with the **UniTor** system {% cite DBLP:conf/evalita/BorazioLPCB26 %} (**Honorable Mention**, “Federico Sangati” Best System Award).
+- **EVALITA 2026 – PFB: Benchmarking Language Models in the Financial Domain** – Participation with the **UniTor** system for financial multi-choice question answering {% cite DBLP:conf/evalita/BorazioARCB26 %}.
 - **BioASQ 2025 (Task 13b)** – Participation with the **UniTor** system for modular biomedical QA {% cite Borazio2025UniTorBioASQ %} (**1st place** in Factoid and Ideal Answer tasks).  
 - **EVALITA 2023** – Participation in all 13 tasks with the **ExtremITA** system {% cite DBLP:conf/evalita/HromeiCB023 %}  
 - **EVALITA 2020** – Stance Detection {% cite DBLP:conf/evalita/GiorgioniPS0C20 %}; Meme Recognition {% cite DBLP:conf/evalita/BreazzanoRC020 %}  

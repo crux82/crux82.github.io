@@ -62,5 +62,5 @@ Beyond foundational research, my work has been applied across a wide range of do
 ---
 
 ## Curriculum Vitae
-- 📄 [Download CV (English)](/files/croce_cv_oct2025_eng.pdf)  
-- 📄 [Download CV (Italiano)](/files/croce_cv_oct2025_ita.pdf)  
+- 📄 [Download CV (English)](/files/croce_cv_may2026_eng.pdf)  
+- 📄 [Download CV (Italiano)](/files/croce_cv_may2026_ita.pdf)  

@@ -9,7 +9,7 @@ permalink: /teaching/
 - **Machine Learning** – MSc Computer Science, University of Rome Tor Vergata (2025–present).  
 - **Operating Systems and Computer Networks** – BSc Computer Science, University of Rome Tor Vergata (2023–present).  
 - **Information Retrieval** – MSc Computer Science, University of Rome Tor Vergata (2019–present).
-- **Data Management for Big Data Analysis** – Second Level Master in Big Data in Business.
+- **Data Governance and Management** – Second Level Master in Data Science for Public Administration.  
   [Master site](https://datasciencepa.uniroma2.it/docenti-master/)  
 
 ---

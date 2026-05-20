@@ -6,12 +6,13 @@ permalink: /service/
 
 ## Leadership
 - **Technical Lead**, [Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it/), University of Rome “Tor Vergata” (since 2008).  
-- **Steering Committee Member**, [AILC – Italian Association for Computational Linguistics](https://www.ai-lc.it/en/association/) (2022–2025).  
+- **Steering Committee Member**, [AILC – Italian Association for Computational Linguistics](https://www.ai-lc.it/en/association/) (2022–present).  
 
 ---
 
 ## Conference Organization
 - **Chair**
+  - [CLiC-it 2026](https://clic2026.unipa.it/) – Program Chair, Twelfth Italian Conference on Computational Linguistics, Palermo, 2026.
   - [NL4AI Workshop 2021](http://ceur-ws.org/Vol-3015) – AIxIA.  
   - [NL4AI Workshop 2020](http://ceur-ws.org/Vol-2735) – AIxIA.  
   - [EVALITA 2020](http://ceur-ws.org/Vol-2765) – Italy’s main NLP evaluation campaign.  
